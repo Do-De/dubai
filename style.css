@@ -774,7 +774,7 @@ p {
   
   @media screen and (max-width: 970px) {
 	  .bottom-navbar .nav-btn {
-    font-size: 18px;
+    font-size: 28px;
   }
 	.hero-content {
 	  flex-direction: column-reverse;
@@ -800,7 +800,17 @@ p {
   }
 @media screen and (max-width: 576px) {
   .bottom-navbar .nav-btn {
-    font-size: 14px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bottom-navbar .nav-btn {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bottom-navbar .nav-btn {
+    font-size: 14.8px;
   }
 }
 .Fe {
